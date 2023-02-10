@@ -36,7 +36,7 @@ public class WeaponsConfig {
 		ITEMS_GAME = CSGO_FOLDER + "/scripts/items/items_game.txt";
 		LANGFILE = CSGO_FOLDER + "/resource/csgo_" + LANG + ".txt";
 		ENLANGFILE = CSGO_FOLDER + "/resource/csgo_english.txt";
-		OUTPUT_FILE = "Desktop" + "/weapons_" + args[1] + ".cfg";
+		OUTPUT_FILE = CSGO_FOLDER + "/addons/sourcemod/configs/weapons/weapons_" + args[1] + ".cfg";
 
 		String sCurrentLine;
 		StringBuilder sb;
